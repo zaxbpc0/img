@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('https://cdn.jsdelivr.net/npm/source-sans-pro@3.6.0/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('https://cdn.jsdelivr.net/npm/source-sans-pro@3.6.0/WOFF/OTF/SourceSansPro-Regular.otf.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url('https://cdn.jsdelivr.net/npm/source-sans-pro@3.6.0/WOFF/OTF/SourceSansPro-Bold.otf.woff') format('woff');
+}
+@font-face {
+  font-family: 'Chancery';
+  src: url("https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/fonts/chancery/apple-chancery-webfont.eot");
+  src: local("Apple Chancery"), url("https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/fonts/chancery/apple-chancery-webfont.eot?#iefix") format("embedded-opentype"),url("https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/fonts/chancery/apple-chancery-webfont.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/fonts/chancery/apple-chancery-webfont.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/fonts/chancery/apple-chancery-webfont.svg#apple-chancery") format("svg");
+  font-weight: lighter;
+  font-style: normal; 
+  }
