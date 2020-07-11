@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="image/ico" href="https://eonegh.com/favicon.ico">
+<?php if($this->options->favicon != ""): ?>
+<link rel="icon" type="image/ico" href="<?php $this->options->favicon() ?>">
+<?php else: ?>
+<link rel="icon" type="image/ico" href="/favicon.ico">
+<?php endif; ?>
   <meta charset="UTF-8">
   <meta name="author" content="Boris Sehovac">
   <meta name="description" content="See if you can solve this classic puzzle game.">
@@ -122,7 +126,7 @@
   </div>
   <script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/js/three.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/js/cube.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/upup.min.b.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/upup.min.js"></script>
   <script>
     if (UpUp !== null) {
       UpUp.start({
