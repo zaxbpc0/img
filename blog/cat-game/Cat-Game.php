@@ -19,7 +19,7 @@ BODY {
 BODY {
 	COLOR: #ffffff;
 	FONT-FAMILY: Comic Sans MS;
-	background-image: url(cat-game/bg.jpg);
+	background-image: url(https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/cat-game/bg.jpg);
 	background-repeat: repeat;
 	background-color: #D9D9D9;
 }
@@ -92,8 +92,8 @@ a:active {
 	<div id="loadad"></div> 
 </div>  
 
-<script src="cat-game/phaser.min.js"></script> 
-<script src="cat-game/catch-the-cat.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/cat-game/phaser.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/cat-game/catch-the-cat.js"></script> 
 <script>
 var myVar = setInterval(myTimer, 1000);
 var time = 0;

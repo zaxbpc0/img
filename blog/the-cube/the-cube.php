@@ -15,7 +15,7 @@
 
   <title>The Cube - A Rubik's Cube Game</title>
   <meta property="og:description" content="See if you can solve this classic puzzle game."/>
-  <meta property="og:image" content="assets/icons/meta-image.png"/>
+  <meta property="og:image" content="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/meta-image.png"/>
   <meta property="og:site_name" content="The Cube - A Rubik's Cube Game"/>
   <meta property="og:title" content="The Cube - A Rubik's Cube Game"/>
   <meta property="og:type" content="website"/>
@@ -24,7 +24,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@BorisSehovac">
   <meta name="twitter:title" content="The Cube - A Rubik's Cube Game">
-  <meta name="twitter:image" content="assets/icons/twitter-card.png">
+  <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/twitter-card.png">
   <meta name="twitter:description" content="See if you can solve this classic puzzle game.">
 
   <meta name="mobile-web-app-capable" content="yes">
@@ -32,15 +32,15 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="translucent-black">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-  <link rel="manifest" href="assets/icons/site.webmanifest">
-  <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="assets/icons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/icons/favicon.ico">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/css/styles.css">
 
   <script>
     window.gameVersion = '0.99.2';
@@ -131,15 +131,15 @@
       </button>
     </div>
   </div>
-  <script src="assets/js/three.js"></script>
-  <script src="assets/js/cube.js"></script>
-  <script src="upup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/js/three.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/js/cube.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/upup.min.js"></script>
   <script>
     if (UpUp !== null) {
       UpUp.start({
         'cache-version': window.gameVersion,
         'content-url': 'index.html',
-        'assets': [ 'assets/css/styles.css', 'assets/js/three.js', 'assets/js/cube.js' ]
+        'assets': [ 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/css/styles.css', 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/js/three.js', 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/the-cube/assets/js/cube.js' ]
       });
     }
   </script>
