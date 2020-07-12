@@ -504,7 +504,6 @@
 	.footer a{
 		color: #959595;
 	}
-	
 	.navbar-brand{display:inline-block;float:none!important;height:auto;padding:0 20px;font-size:35px;font-weight:700;text-align:center;font-family: "Chancery", cursive, LiSu, sans-serif}
 	
 	@media (min-width: 992px){
