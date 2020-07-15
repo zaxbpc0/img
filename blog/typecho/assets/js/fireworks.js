@@ -13,7 +13,7 @@ function clickEffect() {
     let origin;
     let normal;
     let ctx;
-    const colours = ["#6441ef", "#14FFEC", "#37f002", "#ff0080", "#ff8040"];
+    const colours = ["#6441ef", "#14FFEC", "#37f002", "#ff0080", "#ff8040","#000000", "#ffff00", "#0000ff", "#c4423c",];
     const canvas = document.createElement("canvas");
     document.body.appendChild(canvas);
     canvas.setAttribute("style", "width: 100%; height: 100%; top: 0; left: 0; z-index: 99999; position: fixed; pointer-events: none;");
