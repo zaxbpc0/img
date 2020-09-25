@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta name="render" content="webkit">
+  <title>-HOME-</title>
+
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" charset="utf-8" href="normalize.css">
+  <link rel="stylesheet" type="text/css" charset="utf-8" href="style.css">
+  <script src='jquery.js' type='text/javascript'></script>
+  <script type="text/javascript" src="timeyear.js"></script>
+  <script type="text/javascript" src='mkeyword.js'></script>
+  <script type="text/javascript" src='mjs.js'></script>
+  <!--切换夜间-->
+  <link rel="alternate stylesheet" type="text/css" href="dark.css" title="dark">
+  <script>
+    var night = localStorage.getItem('night');
+    if (night === '1') {
+      document.querySelector('link[title="dark"]').disabled = true;
+      document.querySelector('link[title="dark"]').disabled = false;
+    } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && (night !== '0')) {
+      document.querySelector('link[title="dark"]').disabled = true;
+      document.querySelector('link[title="dark"]').disabled = false;
+    }
+  </script>
+  <!--切换夜间-->
+</head>
+<body>
+
+  <div id="container">
+
+
+    <section class="topBox">
+      <div id="search_bg">
+        <div id="button_bg">
+          <div class="searchChoice">
+            <div class="sChoiceBtn" title="切换搜索引擎"><img class="sChoiceBtnImg" src="images/searchChoice/scbaidu.png"></div>
+            <div class="scBigBox">
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scbaidu.png" title="百度搜索">
+                <!--<span class="scName">百度</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scseeres.png" title="Seeres搜索">
+                <!--<span class="scName">Seeres</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scbing.png" title="微软必应搜索">
+                <!--<span class="scName">必应</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/sc360.png" title="360搜索">
+                <!--<span class="scName">360搜索</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scsougou.png" title="搜狗搜索">
+                <!--<span class="scName">搜狗</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scsm.png" title="神马搜索">
+                <!--<span class="scName">神马搜索</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scmijisou.png" title="秘迹搜索">
+                <!--<span class="scName">秘迹搜索</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/sclookao.png" title="Lookao搜索">
+                <!--<span class="scName">Lookao</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scduckduckgo.png" title="DuckDuckGo搜索">
+                <!--<span class="scName">DuckDuckGo</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scbili.png" title="BiliBili搜索">
+                <!--<span class="scName">BiliBili</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scqqvideo.png" title="腾讯视频搜索">
+                <!--<span class="scName">腾讯视频</span>-->
+              </div>
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/scyoutube.png" title="Youtube搜索">
+                <!--<span class="scName">Youtube</span>-->
+              </div>
+              <!--<div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/sctaobao.png" title="淘宝搜索">
+                <span class="scName">淘宝</span>
+              </div>-->
+              <div class="scSmallBox">
+                <img class="scImg" src="images/searchChoice/schuaban.png" title="花瓣图片搜索">
+                <!--<span class="scName">花瓣</span>-->
+              </div>
+
+            </div>
+          </div>
+          <form action="https://www.baidu.com/s" method="GET" id='searchCheck' target="_blank">
+            <input type="text" value="" x-webkit-speech="" lang="zh-CN" placeholder="搜索一下 - PC端访问" name="wd" id='search' class="textb" autocomplete="off">
+          </form>
+          <div class="keywordClose"><img src="images/keywordClose.png"></div>
+          <div class="keyword"></div>
+        </div>
+      </div>
+    </section>
+    <center>
+      <ul class="topSiteBox">
+          <li><a href="https://m.weibo.cn/" target="_blank"><img src="images/weibo.png">微博</a></li>
+          <li><a href="https://tophub.today/n/WnBe01o371" target="_blank"><img src="images/msweixin.png">微信热文</a></li>
+          <li><a href="https://mo.fish/" target="_blank"><img src="images/msyutang.png">鱼塘</a></li>
+          <li><a href="https://www.zhihu.com/" target="_blank"><img src="images/mszhihu.png">知乎</a></li>
+        </ul>
+      <!--p style="color:#999"><img style="padding-top: 3px; width: 20px; height: 20px" src="images/rose.svg"> 12月20日将正式启用 <a href="https://zhuye.red/" target="_blank" style="color:#999" title="点击进入新主页"><b>zhuye.red</b></a>，请及时更换！</p-->
+    </center>
+  </div>
+
+  <footer>
+    <div class="footBox">
+      <!--div class="ewm" title="简洁主页支持设置为手机搜索主页"></div-->
+      <div class="copyright">
+        <p>Copyright © <span id="timeyear"></span>
+          <a target="_blank" title="按下“Ctrl+D”试试？"><b>ZHUYE.RED</b></a> All Rights Reserved.<img src="images/safe.png">
+        </p>
+      </div>
+      <div class="switch">
+        <div id="moon" title="点击 白天/夜间 切换"></div>
+        <a href="https://eonegh.com/admin/login.php" target="_blank" title="博客">
+          <p id="mess"></p>
+        </a>
+        <a href="https://coding.net/" target="_blank" title="CODING">
+          <p id="cod"></p>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<!--点击切换夜间-->
+<script>
+  function switchNightMode() {
+    var nightVal = document.querySelector('link[title="dark"]').disabled;
+    if (nightVal === true) {
+      document.querySelector('link[title="dark"]').disabled = true;
+      document.querySelector('link[title="dark"]').disabled = false;
+      localStorage.setItem('night', '1');
+    } else if (nightVal === false) {
+      document.querySelector('link[title="dark"]').disabled = true;
+      localStorage.setItem('night', '0');
+    }
+  }
+  var moon = document.getElementById("moon");
+  moon.onclick = switchNightMode;
+</script>
+<!--点击切换夜间-->
+<!--无关键字跳转推荐网站js-->
+<script>
+  window.onload = function() {
+    var searchCheck = document.getElementById("searchCheck");
+    searchCheck.addEventListener("submit", function(event) {
+      var wordCheck = document.getElementsByClassName("textb")[0];
+
+      if (wordCheck.value.length <= 0) {
+        window.open("https://zhuye.red/"); //推荐网站链接提交
+        event.preventDefault()
+        return false;
+      }
+
+    });
+  }
+</script>
+
+
+</html>
