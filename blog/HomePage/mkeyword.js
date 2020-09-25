@@ -90,9 +90,6 @@ $(document).ready(function(){
             seach_type.css({"display":"none",height:0});
         });
     });
-    textb.blur(function(){
-        keyword.css({"display":"none",height:0});
-    });
     /*-----------------获取关键词js---------------------*/
     var textb=$("#search_bg #button_bg form .textb");
     textb.keyup(function(event){
