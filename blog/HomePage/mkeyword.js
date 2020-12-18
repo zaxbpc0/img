@@ -2,7 +2,7 @@ $(document).ready(function(){
     /*--------------------搜索框样式控制js------------------------*/
 	 var search_types={
         "types":[{name:"wd",action:"https://www.baidu.com/s",stype:"https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scbaidu.png",type:"baidu"},
-                 {name:"q",action:"https://www.seeres.com/search",stype:"https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scseeres.png",type:"seeres"},
+                 {name:"q",action:"https://www.google.com/search",stype:"https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scgoogle.png",type:"google"},
                  {name:"q",action:"https://www.bing.com/search",stype:"https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scbing.png",type:"bing"},
                  {name:"q",action:"https://www.so.com/s",stype:"https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/sc360.png",type:"so"},
                  {name:"query",action:"https://www.sogou.com/web",stype:"https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scsougou.png",type:"sogou"},
