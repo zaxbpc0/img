@@ -145,23 +145,23 @@ Copyright (c) 2015 Daniel Eden
 }
 @-moz-keyframes swing {
 	0% {
-	-moz-transform:rotate(-10deg)!important;
+	-moz-transform:rotate(-10deg) !important;
 }
 50% {
-	-moz-transform:rotate(10deg)!important;
+	-moz-transform:rotate(10deg) !important;
 }
 100% {
-	-moz-transform:rotate(-10deg)!important;
+	-moz-transform:rotate(-10deg) !important;
 }
 }@-webkit-keyframes swing {
 	0% {
-	-webkit-transform:rotate(-10deg)!important;
+	-webkit-transform:rotate(-10deg) !important;
 }
 50% {
-	-webkit-transform:rotate(10deg!important;
+	-webkit-transform:rotate(10deg) !important;
 }
 100% {
-	-webkit-transform:rotate(-10deg)!important;
+	-webkit-transform:rotate(-10deg) !important;
 }
 }#percentageCounter {
 	position:fixed;
