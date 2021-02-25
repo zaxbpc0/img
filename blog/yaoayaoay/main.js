@@ -10,7 +10,7 @@ var audio, numLoaded = 0;
 soundManager.onready(function() {
   audio = soundManager.createSound({
     id: 'peaking',
-    url: 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/nav/drums.mp3',
+    url: 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/yaoayaoay/drums.mp3',
     multiShot: true,
     autoLoad: true,
     onload: function() {
@@ -24,7 +24,7 @@ soundManager.onready(function() {
   });
   audio2 = soundManager.createSound({
     id: 'peaking2',
-    url: 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/nav/texture.mp3',
+    url: 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/yaoayaoay/texture.mp3',
     multiShot: true,
     autoLoad: true,
     onload: function() {
