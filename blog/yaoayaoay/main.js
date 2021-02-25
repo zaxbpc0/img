@@ -40,7 +40,7 @@ soundManager.onready(function() {
 });
 
 var img = new Image();
-img.src = 'bg.gif';
+img.src = 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/yaoayaoay/bg.gif';
 
 var embedButton = document.getElementById('embed-button');
 var embedShade = document.getElementById('embed');
