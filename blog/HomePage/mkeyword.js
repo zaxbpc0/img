@@ -47,7 +47,7 @@ $(document).ready(function(){
     checktype.click(function(){        
         seach_type.css({"display":"block",height:0});
         seach_type.animate({
-            height:(type.height())*type.length,
+            height:(type.height())*type.length*2,
         },300);
 
     });
@@ -178,7 +178,7 @@ function keydata(keys){
         });
         var numspan=0;//用来指定选择候选词（通过方向键改变）
         textb.keydown(function(event){//如果使用回车提交时，关键词盒子也可以自动收缩
-            /*if(event.which==8){//按下Backspace键触发，清空关键词关闭盒子
+            if(event.which==8){//按下Backspace键触发，清空关键词关闭盒子
                 if(textb.length==1){
                     keywordbox.animate({
                     height:0//关键盒子收缩效果
@@ -187,7 +187,7 @@ function keydata(keys){
                         keywordbox.empty();//清空盒子内容
                     });
                 }
-            }*/
+            }
             if(event.which==13){
                 keywordbox.animate({
                 height:0//关键盒子收缩效果
