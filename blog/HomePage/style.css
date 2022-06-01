@@ -370,26 +370,6 @@ section>.split {
 #searchBtn {
   width: 12%;
   height: 3.8rem;
-  background-color: #fff;
-  border-top-color: #fafafa;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: #fafafa;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgb(21, 18, 14);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: #fafafa;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
   float: left;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.4)
 }
@@ -406,24 +386,6 @@ section>.split {
   -webkit-tap-highlight-color: rgba(120, 120, 120, 0.2);
   width: 10%;
   height: 3.8rem;
-  background-color: #fafafa;
-  border-top-color: #fafafa;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: initial;
-  border-right-style: initial;
-  border-right-width: 0px;
-  border-bottom-color: rgb(21, 18, 14);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: #fafafa;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
   border-right: 0;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
