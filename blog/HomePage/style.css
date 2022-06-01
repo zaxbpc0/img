@@ -528,7 +528,7 @@ input {
 #search_bg #button_bg .keyword {
   width: 85%;
   height: auto;
-  max-height: 12rem;
+/*  max-height: 12rem;*/
   border: solid 1px #15120e;
   border-top: none;
   position: absolute;
