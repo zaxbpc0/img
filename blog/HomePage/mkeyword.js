@@ -5,7 +5,7 @@ $(document).ready(function(){
                  {name:"q",action:"https://www.google.com/search",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scgoogle.png",type:"Google"},
                  {name:"q",action:"https://www.bing.com/search",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scbing.png",type:"bing"},
                  {name:"text",action:"https://yandex.com/search/",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scyandex.png",type:"yandex"},
-                 {name:"keyword",action:"https://m.toutiao.com/search",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/sctiaogray.png",type:"toutiao"},
+                 {name:"keyword",action:"https://m.toutiao.com/search",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/sctiao.png",type:"toutiao"},
                  {name:"q",action:"https://www.so.com/s",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/sc360.png",type:"so"},
                  {name:"query",action:"https://www.sogou.com/web",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scsougou.png",type:"sogou"},
                  {name:"q",action:"https://m.sm.cn/s",stype:"https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/searchChoice/scsm.png",type:"sm"},
