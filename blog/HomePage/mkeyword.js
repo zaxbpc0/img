@@ -47,7 +47,7 @@ $(document).ready(function(){
     checktype.click(function(){        
         seach_type.css({"display":"block",height:0});
         seach_type.animate({
-            height:(type.height())*type.length*2,
+            height:(type.height())*type.length,
         },300);
 
     });
@@ -151,7 +151,7 @@ function keydata(keys){
         }
         keywordbox.html(spans);//把关键词写入关键词盒子
         keywordbox.animate({
-            height:(keywordbox.children().height()+1)*len//关键词下滑效果
+            height:(keywordbox.children().height()+2)*len//关键词下滑效果
         },100);
         //点击候选词汇
         keywordbox.children().click(function(){
