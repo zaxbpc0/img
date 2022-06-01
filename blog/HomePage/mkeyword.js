@@ -151,7 +151,7 @@ function keydata(keys){
         }
         keywordbox.html(spans);//把关键词写入关键词盒子
         keywordbox.animate({
-            height:(keywordbox.children().height()+2)*len//关键词下滑效果
+            height:(keywordbox.children().height()+1)*len*2//关键词下滑效果
         },100);
         //点击候选词汇
         keywordbox.children().click(function(){
