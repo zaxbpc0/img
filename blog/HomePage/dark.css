@@ -526,6 +526,7 @@ section>.split {
 
 #search_bg #button_bg .keyword span {
   display: block;
+  color: #ffffffb;
   clear: both;
   width: 100%;
   height: 2.4rem;
