@@ -139,10 +139,10 @@
     var nightVal = document.querySelector('link[title="dark"]').disabled;
     if (nightVal === true) {
       document.querySelector('link[title="dark"]').disabled = false;
-      localStorage.setItem('night', '1');
+      localStorage.setItem('night', '0');
     } else if (nightVal === false) {
       document.querySelector('link[title="dark"]').disabled = true;
-      localStorage.setItem('night', '0');
+      localStorage.setItem('night', '1');
     }
   }
   var moon = document.getElementById("moon");
