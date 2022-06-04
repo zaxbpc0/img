@@ -18,8 +18,8 @@
       document.querySelector('link[title="dark"]').disabled = true;
       document.querySelector('link[title="dark"]').disabled = false;
     } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7)) {
-      document.querySelector('link[title="dark"]').disabled = false;
       document.querySelector('link[title="dark"]').disabled = true;
+      document.querySelector('link[title="dark"]').disabled = false;
     }
     console.log(night);
   </script>
