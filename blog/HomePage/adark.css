@@ -509,7 +509,7 @@ section>.split {
 #search_bg #button_bg .keyword {
   width: 85%;
   height: auto;
-  color: #ffffffb!important;
+  color: #3e3e3e;
 /*  max-height: 12rem;*/
   border: solid 1px #90a1ad;
   border-top: none;
