@@ -16,7 +16,7 @@
     var night = localStorage.getItem('night');
     if (night === '1') {
       document.querySelector('link[title="dark"]').disabled = true;
-    } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && (night !== '0')) {
+    } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && (night !== '1')) {
       document.querySelector('link[title="dark"]').disabled = false;
     }
   </script>
