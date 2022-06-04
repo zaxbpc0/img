@@ -19,8 +19,9 @@
     } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && (night !== '1')) {
       document.querySelector('link[title="dark"]').disabled = false;
     }
-  </script>
     console.log(night);
+  </script>
+    
   <!--切换夜间-->
 </head>
 <body>
@@ -145,8 +146,9 @@
       document.querySelector('link[title="dark"]').disabled = true;
       localStorage.setItem('night', '1');
     }
+   console.log(nightVal); 
   }
-  console.log(nightVal);
+  
   var moon = document.getElementById("moon");
   moon.onclick = switchNightMode;
 </script>
