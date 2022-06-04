@@ -20,6 +20,7 @@
       document.querySelector('link[title="dark"]').disabled = false;
     }
   </script>
+    console.log(night);
   <!--切换夜间-->
 </head>
 <body>
@@ -145,7 +146,7 @@
       localStorage.setItem('night', '1');
     }
   }
-  console.log("\n %d nightVal %c 星辰短域|密语 %c Powered by XCSOFT | xsot.cn ","color:#444;background:#eee;padding:5px 0;", "color:#eee;background:#444;padding:5px 0;");
+  console.log(nightVal);
   var moon = document.getElementById("moon");
   moon.onclick = switchNightMode;
 </script>
