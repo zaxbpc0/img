@@ -86,7 +86,7 @@ $(document).ready(function(){
         });
     });
     textb.blur(function(){
-        textb.css({border:"solid 1px "+"#CCCCCC"});
+        textb.css({border-top: "1px solid #fafafa", border-bottom: "1px solid #15120e", border-right: "0 none", border-left: "0 none"});
     });
     /*-----------------获取关键词js---------------------*/
     var textb=$("#search_bg #button_bg form .textb");
