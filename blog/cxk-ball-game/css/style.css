@@ -4,7 +4,7 @@ canvas{
   background: transparent;
 }
 #cdiv {
-	background: url(https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/cxk-ball-game/images/background.jpg) no-repeat;
+	background: url(https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/cxk-ball-game/images/background.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
