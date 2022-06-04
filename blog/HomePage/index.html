@@ -8,17 +8,15 @@
   <meta name="render" content="webkit">
   <title>-HOME-</title>
   <link rel="icon" href="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/images/Rumbrella.png" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" charset="utf-8" href="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/normalize.css">
-  <link rel="stylesheet" type="text/css" charset="utf-8" href="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/style_june.css">
+  <link rel="stylesheet" type="text/css" charset="utf-8" href="https://fastly.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" charset="utf-8" href="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/style.css">
   <!--切换夜间-->
   <link rel="alternate stylesheet" type="text/css" href="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/dark.css" title="dark">
   <script>
     var night = localStorage.getItem('night');
     if (night === '1') {
       document.querySelector('link[title="dark"]').disabled = true;
-      document.querySelector('link[title="dark"]').disabled = false;
     } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && (night !== '0')) {
-      document.querySelector('link[title="dark"]').disabled = true;
       document.querySelector('link[title="dark"]').disabled = false;
     }
   </script>
@@ -140,7 +138,6 @@
   function switchNightMode() {
     var nightVal = document.querySelector('link[title="dark"]').disabled;
     if (nightVal === true) {
-      document.querySelector('link[title="dark"]').disabled = true;
       document.querySelector('link[title="dark"]').disabled = false;
       localStorage.setItem('night', '1');
     } else if (nightVal === false) {
@@ -160,14 +157,14 @@
       var wordCheck = document.getElementsByClassName("textb")[0];
 
       if (wordCheck.value.length <= 0) {
-        window.open("https://zhuye.red/"); //推荐网站链接提交
+        window.open("https://eonegh.com/"); //推荐网站链接提交
         event.preventDefault()
         return false;
       }
     });
   }
 </script>
-  <script type='text/javascript' src='https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/jquery.js'></script>
+  <script type='text/javascript' src='https://fastly.jsdelivr.net/npm/jquery@1.9.0/dist/jquery.min.js'></script>
   <script type="text/javascript" src="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/timeyear.js"></script>
   <script type="text/javascript" src='https://fastly.jsdelivr.net/gh/zaxbpc0/img@latest/blog/HomePage/mkeyword.js'></script>
   <script type="text/javascript" src='https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/mjs.js'></script>
