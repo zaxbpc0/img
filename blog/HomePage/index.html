@@ -14,7 +14,7 @@
   <link rel="alternate stylesheet" type="text/css" href="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/dark.css" title="dark">
   <script>
     var night = localStorage.getItem('night');
-    if (night === '1') {
+    if (night === '0') {
       document.querySelector('link[title="dark"]').disabled = true;
     } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7)) {
       document.querySelector('link[title="dark"]').disabled = false;
