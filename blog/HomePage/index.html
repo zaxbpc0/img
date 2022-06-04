@@ -14,9 +14,9 @@
   <link rel="alternate stylesheet" type="text/css" href="https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/HomePage/dark.css" title="dark">
   <script>
     var night = localStorage.getItem('night');
-    if (night === '1') {
+    if (night === '0') {
       document.querySelector('link[title="dark"]').disabled = true;
-    } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && (night === '1')) {
+    } else if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && (night === '0')) {
       document.querySelector('link[title="dark"]').disabled = false;
     }
     console.log(night);
@@ -141,10 +141,10 @@
     var nightVal = document.querySelector('link[title="dark"]').disabled;
     if (nightVal === true) {
       document.querySelector('link[title="dark"]').disabled = false;
-      localStorage.setItem('night', '0');
+      localStorage.setItem('night', '1');
     } else if (nightVal === false) {
       document.querySelector('link[title="dark"]').disabled = true;
-      localStorage.setItem('night', '1');
+      localStorage.setItem('night', '0');
     }
    console.log(nightVal); 
   }
