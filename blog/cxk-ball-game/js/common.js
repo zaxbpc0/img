@@ -6,7 +6,7 @@ const log = console.log.bind(console)
 // 生成图片对象方法
 const imageFromPath = function (src) {
   let img = new Image()
-  img.src = 'https://cdn.jsdelivr.net/gh/zaxbpc0/img/blog/cxk-ball-game/images/' + src
+  img.src = 'https://fastly.jsdelivr.net/gh/zaxbpc0/img/blog/cxk-ball-game/images/' + src
   return img
 }
 // 检测页面不可见时自动暂停游戏方法
