@@ -633,7 +633,6 @@ input {
     height: 60px;
     position: fixed;
     right: 15px;
-    bottom: 20px;
     z-index: 999;
   }
 
