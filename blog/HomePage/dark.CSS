@@ -630,7 +630,7 @@ input {
 
   .switch {
     width: 15px;
-    height: 60px;
+    bottom: 50px;
     position: fixed;
     right: 15px;
     z-index: 999;
